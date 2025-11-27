@@ -31,6 +31,15 @@ const exams = [
     questions: "92 MCQs",
     badge: "International Standard",
   },
+  {
+    name: "GLAT",
+    fullName: "Gujarat Law Admission Test",
+    description: "State level entrance exam for admission to law colleges in Gujarat",
+    eligibility: "12th Pass (45% for General)",
+    duration: "2 hours",
+    questions: "100 MCQs",
+    badge: "Gujarat State",
+  },
 ];
 
 const ExamsOverview = () => {
@@ -44,7 +53,7 @@ const ExamsOverview = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {exams.map((exam, index) => (
             <Card key={index} className="shadow-card hover:shadow-elevated transition-shadow duration-300">
               <CardHeader>
