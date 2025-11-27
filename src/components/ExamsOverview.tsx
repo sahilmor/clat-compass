@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, Users, FileText, ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const exams = [
   {
@@ -12,6 +13,7 @@ const exams = [
     duration: "2 hours",
     questions: "120 MCQs",
     badge: "Most Popular",
+    link: "/clat",
   },
   {
     name: "AILET",
@@ -21,6 +23,7 @@ const exams = [
     duration: "90 minutes",
     questions: "150 MCQs",
     badge: "NLU Delhi",
+    link: "/ailet",
   },
   {
     name: "LSAT India",
@@ -30,6 +33,7 @@ const exams = [
     duration: "2 hours 20 minutes",
     questions: "92 MCQs",
     badge: "International Standard",
+    link: "/lsat",
   },
   {
     name: "GLAT",
@@ -39,10 +43,13 @@ const exams = [
     duration: "2 hours",
     questions: "100 MCQs",
     badge: "Gujarat State",
+    link: "/glat",
   },
 ];
 
 const ExamsOverview = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="exams" className="py-16 bg-background">
       <div className="container mx-auto px-4">
@@ -88,7 +95,11 @@ const ExamsOverview = () => {
                   </div>
                 </div>
 
-                <Button className="w-full mt-4 bg-primary hover:bg-primary/90" size="sm">
+                <Button 
+                  className="w-full mt-4 bg-primary hover:bg-primary/90" 
+                  size="sm"
+                  onClick={() => navigate(exam.link)}
+                >
                   View Details <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
