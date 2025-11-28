@@ -37,12 +37,12 @@ const exams = [
   },
   {
     name: "GLAT",
-    fullName: "Gujarat Law Admission Test",
-    description: "State level entrance exam for admission to law colleges in Gujarat",
-    eligibility: "12th Pass (45% for General)",
-    duration: "2 hours",
-    questions: "100 MCQs",
-    badge: "Gujarat State",
+    fullName: "Geeta Law Admission Test",
+    description: "Entrance exam conducted by Geeta Institute of Law for admission to BA LLB and BBA LLB programs",
+    eligibility: "12th Pass or Equivalent",
+    duration: "Online Test",
+    questions: "Written Test + Interview",
+    badge: "University Level",
     link: "/glat",
   },
 ];

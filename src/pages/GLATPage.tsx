@@ -24,8 +24,8 @@ const GLATPage = () => {
             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
           </Button>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">GLAT 2025</h1>
-          <p className="text-xl opacity-95">Gujarat Law Admission Test</p>
-          <Badge className="mt-4 bg-accent text-accent-foreground">Gujarat State Exam</Badge>
+          <p className="text-xl opacity-95">Geeta Law Admission Test</p>
+          <Badge className="mt-4 bg-accent text-accent-foreground">Geeta Institute of Law</Badge>
         </div>
       </div>
 
@@ -43,10 +43,10 @@ const GLATPage = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground">
-                  The Gujarat Law Admission Test (GLAT) is a state-level entrance examination conducted for admission to various law colleges in Gujarat. It is designed to assess candidates' aptitude for legal studies and their general knowledge.
+                  The Geeta Law Admission Test (GLAT) is a university-level entrance examination conducted by Geeta Institute of Law, Geeta University, Panipat, Haryana. The exam is designed for admission to undergraduate law programs including BA LLB (Hons.) and BBA LLB (Hons.).
                 </p>
                 <p className="text-foreground">
-                  GLAT provides opportunities for students to pursue undergraduate law programmes (BA LLB/BBA LLB) in Gujarat's law institutions. The exam evaluates analytical reasoning, logical thinking, and comprehension skills essential for legal education.
+                  GLAT evaluates candidates through a written test followed by a personal interview. The qualifying students must appear for both stages of the selection process. The exam assesses analytical reasoning, legal aptitude, and comprehension skills essential for pursuing legal education.
                 </p>
               </CardContent>
             </Card>
@@ -61,13 +61,13 @@ const GLATPage = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-semibold text-lg mb-2 text-foreground">For UG Law Programmes</h3>
+                    <h3 className="font-semibold text-lg mb-2 text-foreground">For UG Law Programmes (BA LLB/BBA LLB)</h3>
                     <ul className="list-disc list-inside space-y-2 text-foreground">
                       <li>Passed 10+2 or equivalent examination from a recognized board</li>
-                      <li>General/OBC: Minimum 45% marks in qualifying examination</li>
-                      <li>SC/ST: Minimum 40% marks in qualifying examination</li>
+                      <li>Minimum aggregate marks as per university norms</li>
                       <li>Candidates appearing in 12th examination can also apply</li>
-                      <li>Age limit may vary based on specific college requirements</li>
+                      <li>Must appear for written test and personal interview</li>
+                      <li>Age limit and other criteria as per Geeta University guidelines</li>
                     </ul>
                   </div>
                 </div>
@@ -88,37 +88,38 @@ const GLATPage = () => {
                   <div className="flex items-start gap-3">
                     <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold text-foreground">Duration</p>
-                      <p className="text-muted-foreground">2 hours (120 minutes)</p>
+                      <p className="font-semibold text-foreground">Selection Process</p>
+                      <p className="text-muted-foreground">Written Test + Personal Interview</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <FileText className="h-5 w-5 text-accent shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold text-foreground">Total Questions</p>
-                      <p className="text-muted-foreground">100 MCQs</p>
+                      <p className="font-semibold text-foreground">Test Format</p>
+                      <p className="text-muted-foreground">Online/Offline Written Test</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <Target className="h-5 w-5 text-accent shrink-0 mt-1" />
+                    <GraduationCap className="h-5 w-5 text-accent shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold text-foreground">Total Marks</p>
-                      <p className="text-muted-foreground">100 marks</p>
+                      <p className="font-semibold text-foreground">Programs Offered</p>
+                      <p className="text-muted-foreground">BA LLB (Hons.) & BBA LLB (Hons.)</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Calendar className="h-5 w-5 text-accent shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold text-foreground">Mode</p>
-                      <p className="text-muted-foreground">Offline/Online</p>
+                      <p className="font-semibold text-foreground">Duration</p>
+                      <p className="text-muted-foreground">5 Years (Full Time)</p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-6">
-                  <p className="font-semibold text-foreground mb-2">Marking Scheme:</p>
+                  <p className="font-semibold text-foreground mb-2">Selection Stages:</p>
                   <ul className="list-disc list-inside space-y-1 text-foreground">
-                    <li>+1 mark for each correct answer</li>
-                    <li>Negative marking may apply (check official notification)</li>
+                    <li>Stage 1: Written Test (Online Application)</li>
+                    <li>Stage 2: Personal Interview for qualifying candidates</li>
+                    <li>Final merit list based on combined performance</li>
                   </ul>
                 </div>
               </CardContent>
@@ -133,39 +134,42 @@ const GLATPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <p className="text-foreground mb-3">The GLAT syllabus typically covers the following areas:</p>
+                  <p className="text-foreground mb-3">The GLAT written test typically evaluates candidates on:</p>
                   <div className="space-y-4">
                     <div className="border-l-4 border-accent pl-4">
-                      <h4 className="font-semibold text-foreground">1. Legal Aptitude</h4>
+                      <h4 className="font-semibold text-foreground">1. Legal Aptitude & Reasoning</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Legal reasoning, principles of law, application of legal concepts, basic understanding of Indian Constitution and legal system
+                        Legal reasoning, application of legal principles, understanding of basic legal concepts, interpretation of legal passages, constitutional knowledge
                       </p>
                     </div>
                     <div className="border-l-4 border-accent pl-4">
                       <h4 className="font-semibold text-foreground">2. Logical Reasoning</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Analytical reasoning, logical deductions, syllogisms, blood relations, coding-decoding, series completion
+                        Analytical reasoning, logical deductions, pattern recognition, critical thinking, syllogisms, puzzles
                       </p>
                     </div>
                     <div className="border-l-4 border-accent pl-4">
-                      <h4 className="font-semibold text-foreground">3. English Language</h4>
+                      <h4 className="font-semibold text-foreground">3. English Language & Comprehension</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Reading comprehension, grammar, vocabulary, sentence correction, error detection, synonyms and antonyms
+                        Reading comprehension, grammar, vocabulary, sentence formation, error detection, comprehension passages
                       </p>
                     </div>
                     <div className="border-l-4 border-accent pl-4">
-                      <h4 className="font-semibold text-foreground">4. General Knowledge</h4>
+                      <h4 className="font-semibold text-foreground">4. General Knowledge & Current Affairs</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Current affairs (national and international), history, geography, Indian polity, economics, general science
+                        Current affairs, legal current events, Indian polity, history, geography, general awareness
                       </p>
                     </div>
                     <div className="border-l-4 border-accent pl-4">
-                      <h4 className="font-semibold text-foreground">5. Mathematics</h4>
+                      <h4 className="font-semibold text-foreground">5. Quantitative Aptitude</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Basic arithmetic, algebra, geometry (10th standard level), data interpretation
+                        Basic mathematics, numerical ability, data interpretation, problem-solving (10+2 level)
                       </p>
                     </div>
                   </div>
+                  <p className="text-sm text-muted-foreground mt-4">
+                    *Note: Please check the official GLAT website for the most current and detailed syllabus.
+                  </p>
                 </div>
               </CardContent>
             </Card>
@@ -182,28 +186,24 @@ const GLATPage = () => {
               <CardContent>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center border-b border-border pb-2">
-                    <span className="font-medium text-foreground">Application Start</span>
-                    <span className="text-muted-foreground">To be announced</span>
-                  </div>
-                  <div className="flex justify-between items-center border-b border-border pb-2">
-                    <span className="font-medium text-foreground">Application End</span>
-                    <span className="text-muted-foreground">To be announced</span>
-                  </div>
-                  <div className="flex justify-between items-center border-b border-border pb-2">
-                    <span className="font-medium text-foreground">Admit Card Release</span>
-                    <span className="text-muted-foreground">To be announced</span>
+                    <span className="font-medium text-foreground">Application Last Date</span>
+                    <span className="text-accent font-semibold">12 June 2025</span>
                   </div>
                   <div className="flex justify-between items-center border-b border-border pb-2">
                     <span className="font-medium text-foreground">Exam Date</span>
-                    <span className="text-accent font-semibold">May 2025 (Expected)</span>
+                    <span className="text-accent font-semibold">14 June 2025</span>
                   </div>
                   <div className="flex justify-between items-center border-b border-border pb-2">
                     <span className="font-medium text-foreground">Result Declaration</span>
                     <span className="text-muted-foreground">To be announced</span>
                   </div>
+                  <div className="flex justify-between items-center border-b border-border pb-2">
+                    <span className="font-medium text-foreground">Counselling/Interview</span>
+                    <span className="text-muted-foreground">After result declaration</span>
+                  </div>
                 </div>
                 <p className="mt-4 text-sm text-muted-foreground">
-                  *Dates are tentative. Please check the official website for confirmed schedule.
+                  *Please check the official website at <a href="http://www.geetalawcollege.in/G-LAT/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">geetalawcollege.in</a> for the latest updates.
                 </p>
               </CardContent>
             </Card>
@@ -216,23 +216,21 @@ const GLATPage = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="mb-4 text-foreground">GLAT scores may be accepted by various law colleges in Gujarat, including:</p>
-                <div className="grid md:grid-cols-2 gap-2">
-                  {[
-                    "Gujarat National Law University (GNLU), Gandhinagar",
-                    "Various affiliated law colleges in Gujarat",
-                    "Private law institutions accepting GLAT",
-                    "State universities offering law programmes",
-                  ].map((college, index) => (
-                    <div key={index} className="flex items-start gap-2">
-                      <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
-                      <p className="text-sm text-foreground">{college}</p>
-                    </div>
-                  ))}
+                <p className="mb-4 text-foreground">GLAT is conducted exclusively for admission to:</p>
+                <div className="bg-muted p-4 rounded-lg mb-4">
+                  <h4 className="font-semibold text-lg text-foreground mb-2">Geeta Institute of Law, Geeta University</h4>
+                  <p className="text-sm text-muted-foreground mb-2">GT Road, Village Karhans, Samalkha, Panipat, Haryana</p>
+                  <div className="space-y-1 text-sm">
+                    <p className="text-foreground"><span className="font-medium">Programs:</span> BA LLB (Hons.) - 5 Years, BBA LLB (Hons.) - 5 Years</p>
+                    <p className="text-foreground"><span className="font-medium">Total Fees:</span> ₹8.45 Lakh (approximate)</p>
+                    <p className="text-foreground"><span className="font-medium">Rating:</span> 4.2/5</p>
+                  </div>
                 </div>
-                <p className="mt-4 text-sm text-muted-foreground">
-                  Note: Please verify with individual colleges for their specific admission requirements and whether they accept GLAT scores.
-                </p>
+                <div className="space-y-2">
+                  <p className="text-sm text-foreground"><span className="font-semibold">Official Website:</span> <a href="http://www.geetalawcollege.in/G-LAT/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">geetalawcollege.in/G-LAT</a></p>
+                  <p className="text-sm text-foreground"><span className="font-semibold">Contact:</span> 0120-4160880, 0120-4160881</p>
+                  <p className="text-sm text-foreground"><span className="font-semibold">Email:</span> info@admissionhelp.com</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -247,23 +245,27 @@ const GLATPage = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
-                    <p className="text-foreground">Create a structured study plan covering all sections equally</p>
+                    <p className="text-foreground">Create a balanced study plan covering legal aptitude, logical reasoning, and general knowledge</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
-                    <p className="text-foreground">Focus on legal aptitude and reasoning sections as they carry significant weightage</p>
+                    <p className="text-foreground">Focus on legal reasoning and aptitude - understand basic legal principles and constitutional provisions</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
-                    <p className="text-foreground">Stay updated with current affairs, especially legal and constitutional developments</p>
+                    <p className="text-foreground">Stay updated with current legal affairs, landmark judgments, and constitutional amendments</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
-                    <p className="text-foreground">Practice mock tests to improve speed and accuracy</p>
+                    <p className="text-foreground">Practice previous year question papers and sample tests available on the official website</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
-                    <p className="text-foreground">Strengthen English language skills through daily reading and comprehension practice</p>
+                    <p className="text-foreground">Improve English comprehension through regular reading of legal articles and newspapers</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="h-2 w-2 bg-accent rounded-full mt-2 shrink-0"></div>
+                    <p className="text-foreground">Prepare well for the personal interview round - practice speaking about current legal issues and your interest in law</p>
                   </li>
                 </ul>
               </CardContent>
