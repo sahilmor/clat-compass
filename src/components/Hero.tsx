@@ -19,7 +19,7 @@ const Hero = () => {
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-elevated">
               Start Preparation
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+            <Button size="lg" variant="outline" className="bg-accent border-accent text-accent-foreground hover:bg-accent/90">
               View Exam Details
             </Button>
           </div>
